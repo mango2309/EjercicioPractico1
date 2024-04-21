@@ -15,5 +15,6 @@ namespace EjercicioPráctico1.Data
         }
 
         public DbSet<EjercicioPráctico1.Models.Burger> Burger { get; set; } = default!;
+        public DbSet<EjercicioPráctico1.Models.Promo> Promo { get; set; } = default!;
     }
 }
